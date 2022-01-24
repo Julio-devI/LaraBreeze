@@ -9,7 +9,7 @@ export default function Welcome(props) {
                 <div className="fixed top-0 right-0 px-6 py-4 sm:block">
                     {props.auth.user ? (
                         <Link href={route('dashboard')} className="text-sm text-gray-700 underline">
-                            Dashboard
+                            Testando
                         </Link>
                     ) : (
                         <>
@@ -59,16 +59,14 @@ export default function Welcome(props) {
                                             href="https://laravel.com/docs"
                                             className="underline text-gray-900 dark:text-white"
                                         >
-                                            Documentation
+                                            aaaaaaaa
                                         </a>
                                     </div>
                                 </div>
 
                                 <div className="ml-12">
                                     <div className="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                        Laravel has wonderful, thorough documentation covering every aspect of the
-                                        framework. Whether you are new to the framework or have previous experience with
-                                        Laravel, we recommend reading all of the documentation from beginning to end.
+                                        Testando views
                                     </div>
                                 </div>
                             </div>
